@@ -26,7 +26,7 @@ from isaaclab.utils.assets import ISAACLAB_NUCLEUS_DIR
 
 LEATHERBACK_CFG = ArticulationCfg(
     spawn=sim_utils.UsdFileCfg(
-            usd_path=f"/home/goat/Documents/GitHub/renanmb/IsaacLab/source/assets/robots/leatherback_simple_better.usd",
+            usd_path=f"/home/goat/Documents/GitHub/IsaacLab_GOATR1/source/assets/robots/leatherback_simple_better.usd",
             rigid_props=sim_utils.RigidBodyPropertiesCfg(
             rigid_body_enabled=True,
             max_linear_velocity=1000.0,

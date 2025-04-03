@@ -26,7 +26,7 @@ from isaaclab.utils.math import sample_uniform
 @configclass
 class LeatherbackEnvCfg(DirectRLEnvCfg):
     # env
-    decimation = 4          # Decimation - number of time steps between actions, it was 2
+    decimation = 1          # Decimation - number of time steps between actions, it was 2
     episode_length_s = 20.0 # Max each episode should last in seconds, 30 s seems a lot
     action_space = 2        # Number of actions the neural network shuold return   
     observation_space = 8   # Number of observations fed into neural network
